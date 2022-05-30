@@ -124,6 +124,20 @@ h3{
     bottom: 10px;
 }
 
+.notification{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    width: 20px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #F85959;
+    position: relative;
+    right: 15px;
+    bottom: 20px;
+}
 
 #welcome{
     font-family: 'Quicksand';
@@ -885,7 +899,8 @@ h3{
 
 header{
     margin-left: 110px;
-    width: 412px;
+    /* width: 412px; */
+    width: 100%;
 }
 
 #issn{
@@ -957,6 +972,7 @@ h4{
 
 .grid-item-4{
     width: 100%;
+    margin-left: 1%;
 }
 
 #name{
@@ -990,6 +1006,12 @@ section{
 #answers{
     width: 400px;
     display: none;
+}
+
+
+footer{
+    margin-left: 35%;
+    width: 100%;
 }
 
 }

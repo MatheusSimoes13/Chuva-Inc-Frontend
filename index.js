@@ -44,20 +44,22 @@ function sendForm(){
 
 var answers = document.getElementById('answers');
 
-// $(".question").click(toggleAnswers());
-
-// console.log($(".question"));
 var question = document.querySelector('.question');
 
-question.addEventListener("click",toggleAnswers());
 
+var stateAnswer = "show";
 
 function toggleAnswers(){
-    if(answers.style.display == "none"){
+
+    
+    if(stateAnswer == "show"){
         answers.style.display = "inline";
+        stateAnswer = "hide";
     }
     else{
         answers.style.display = "none";
+        stateAnswer = "show";
     }
-    
+
 }
+
